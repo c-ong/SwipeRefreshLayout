@@ -1,0 +1,14 @@
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    class="android.support.v4.widget.SwipeRefreshLayout"
+    tools:context="org.ong.android.examples.supportv4srl.MainActivity$PlaceholderFragment" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</view>
